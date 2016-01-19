@@ -42,7 +42,8 @@ def login_required(test):
 
 @app.route('/')
 def home():
-    return render_template('pages/placeholder.home.html')
+    #return render_template('pages/placeholder.home.html')
+    return render_template('todo_app/index.html')
 
 
 @app.route('/about')
