@@ -2,7 +2,12 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 
-<div>Todo App here</div>
+  
+<div ng-controller="TodoController">
+  Valor: <span ng-bind="mensagem"></span>
+  <!-- not workinkg ? -->
+</div>
+
 
 
 {% endblock %}

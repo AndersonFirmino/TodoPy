@@ -1,0 +1,22 @@
+{
+  "name": "todopy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersonFirmino/TodoPy.git"
+  },
+  "author": "Anderson Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersonFirmino/TodoPy/issues"
+  },
+  "homepage": "https://github.com/AndersonFirmino/TodoPy#readme",
+  "dependencies": {
+    "bower": "^1.7.2"
+  }
+}
