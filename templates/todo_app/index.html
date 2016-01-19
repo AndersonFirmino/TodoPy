@@ -2,12 +2,12 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 
-  
+{% raw %}
 <div ng-controller="TodoController">
-  Valor: <span ng-bind="mensagem"></span>
+  Valor: {{mensagem}}
   <!-- not workinkg ? -->
 </div>
-
+{% endraw %}
 
 
 {% endblock %}
