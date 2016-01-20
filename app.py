@@ -2,7 +2,7 @@
 # Imports
 #----------------------------------------------------------------------------#
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 # from flask.ext.sqlalchemy import SQLAlchemy
 import logging
 from logging import Formatter, FileHandler
@@ -44,6 +44,7 @@ def login_required(test):
 def home():
     #return render_template('pages/placeholder.home.html')
     return render_template('todo_app/index.html')
+    
 
 
 @app.route('/about')

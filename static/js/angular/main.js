@@ -3,7 +3,7 @@
 
   angular.module("todo-py", ["ngRoute"])
     .config(function($routeProvider){
-      $routeProvider.when('/todo', {
+      $routeProvider.when('/', {
         templateUrl: "/static/partials/index.html",
         controller: "TodoController"
       })
